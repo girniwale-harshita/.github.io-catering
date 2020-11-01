@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+body{
+	margin: 0;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.nav{
+	padding: 1px;
+	background-color: skyblue;
+	position: sticky;
+	top: 0;
+}
+
+h1 a{
+	color: black;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+ul li.active {
+   background-color: blue;
+    color: white;
+}
+
+h1 a:hover{
+	background-color:black;
+	color:white;
+}
+
+h2{
+	/*padding: 90px;*/
+	margin-top: 100px;
+	font-size: 40px;
+}
+
+h1{
+	font-size: 40px;
+	color: black;
+
+}
+
+
+#home{
+	background-image: linear-gradient(rgb(0, 0,0, 0.5),rgba(0,0,0,0.5)), url(image2.jpg);
+	height: 100vh;
+	width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.design{
+	float: bottom;
+	margin-top: -50px;
+	color: white;
+
+}
+
+#about{
+	margin-top: 20px;
+	padding: 40px;
+	font-size: 20px;
+	font-family: times new roman;
+	overflow: visible;
+	margin-right: 200px;
+	margin-bottom: 100px;
+	padding-bottom: 30px;
+}
+
+.about_style{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
+}
+
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+ /*margin-left: 200px;*/
+ margin-top: 3px;
+ padding: 100px;
+}
+
+#menu{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: times new roman;
+	overflow: visible;
+	/*margin-bottom: 100px;*/
+	padding-bottom: 30px;
+	padding-top: -50px;
+}
+
+.menu_name{
+	font-size: 25px;
+	font-family: times new roman;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.menu_description{
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.menu_style{
+	padding: 50px;
+}
+
+.right{
+	float: right;
+ 	padding: 0 20px 20px 0;
+ 	/*margin-right: 300px;*/
+ 	margin-top: 1px;
+}
+
+.center{
+	text-align: center;
+	
+}
+
+#contact{
+	/*margin-bottom: 200px;
+	padding-bottom: 30px;*/
+}
+
+.text{
+	margin-top: -200px;
+	font-size: 20px;
+}
+
+.address{
+	margin-top: -150px;
+	color: black;
+	font-size: 15px;
+}
+
+.box input {
+		width: 70%;
+		height: 40px;
+		margin-left: 118px;
+		border: 1px solid black;		
+}
+
+.box input : hower{
+	border: 1px solid red;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 1px auto;
+    border: 2px solid black;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+button.navbar-toggle, .icon-bar {
+  border: 1px solid black;
+}
+
+button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+navbar-collapse{
+	overflow: hidden;
+}
+
+
